@@ -62,12 +62,7 @@
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://cdm21076.contentdm.oclc.org/iiif/2/stampe:9860",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "formats" : [ "tif", "jpg", "gif", "png" ],
-              "maxArea" : 18599220,
-              "qualities" : [ "bitonal", "default", "gray", "color" ],
-              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
-            } ]
+            "profile" : "http://iiif.io/api/image/2/level2.json"
           },
           "height" : 3483,
           "width" : 2670
