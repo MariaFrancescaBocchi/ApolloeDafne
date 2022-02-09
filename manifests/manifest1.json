@@ -1,0 +1,92 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://MariaFrancescaBocchi.github.io/apolloedafne/manifests/manifest1.json",
+  "@type" : "sc:Manifest",
+  "label" : "Maestro del Dado (copia da), Apollo e Dafne",
+  "metadata" : [ {
+    "label" : "Titolo",
+    "value" : "Apollo e Dafne"
+  }, {
+    "label" : "Creatore",
+    "value" : "Maestro del Dado"
+  }, {
+    "label" : "Creatore",
+    "value" : "Giulio Romano"
+  }, {
+    "label" : "Soggetto",
+    "value" : "Apollo; Dafne; Peneo; metamorfosi; Ovidio."
+  }, {
+    "label" : "Data",
+    "value" : "1520"
+  }, {
+    "label" : "Copertura",
+    "value" : "Bibliioteca Casanatese, Roma."
+  }, {
+    "label" : "Formato",
+    "value" : "Incisione a bulino"
+  }, {
+    "label" : "Editore",
+    "value" : "Iconos"
+  }, {
+    "label" : "Autore di contributo secondario",
+    "value" : "Maria Francesca Bocchi"
+  } ],
+  "description" : [ {
+    "@value" : "L'incisione, copia dal Maestro del Dado su invenzione di Giulio Romano, fa parte di una serie di quattro stampe dedicate al mito di Apollo e Dafne e conservate alla Biblioteca Casanatese di Roma. Ogni incisione è accompagnata, in fondo alla pagina, da alcuni versi esplicativi dell'episodio, e anche quella qui presentata non fa eccezione. La scena presente in questa immagine raffigura in primo piano la fuga di Dafne da Apollo mentre sullo sfondo, un ricco paesaggio naturale, assistiamo al momento successivo. Sulla destra, infatti, ritroviamo i due giovani che, ormai arrestata la corsa, assistono entrambi alla metamorfosi: Dafne è presenta come essere ibrido, con il corpo ancora umano ma con una gamba già in forma di tronco e con le mani e i capelli ricoperti di foglie e fronde, Apollo invece allunga le braccia e sembra volerle strappare i rami della testa, anticipando così l'epilogo in cui la eleggerà a propria pianta sacra e intreccerà la corona d'alloro. Un altro personaggio, sulla sinistra dello sfondo, assiste alla metamorfosi: è il padre Peneo che, appoggiando un braccio sulla sua urna e sostenendosi la testa con l'altra mano in atteggiamento di rassegnazione, osserva la figlia mutata in alloro per sua stessa intercessione.",
+    "@language" : "it"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Biblioteca Casanatese, Roma. ",
+  "sequences" : [ {
+    "@id" : "http://1962ad10-ae3f-4193-9cc8-d516a17c94c6",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://086dc652-8c37-4aeb-af86-a6aff852c6d3",
+      "@type" : "sc:Canvas",
+      "label" : "Maestro del Dado, Apollo e Dafne",
+      "height" : 3483,
+      "width" : 2670,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://47c8e0a1-14c2-4d4d-9cfc-2b9b11973013",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://cdm21076.contentdm.oclc.org/iiif/2/stampe:9860/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://cdm21076.contentdm.oclc.org/iiif/2/stampe:9860",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 18599220,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3483,
+          "width" : 2670
+        },
+        "on" : "http://086dc652-8c37-4aeb-af86-a6aff852c6d3"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "thumbnail" : {
+    "@id" : "http://086dc652-8c37-4aeb-af86-a6aff852c6d3"
+  },
+  "seeAlso" : {
+    "format" : "XML/DC"
+  },
+  "related" : {
+    "@id" : "https://casanatense.contentdm.oclc.org/digital/collection/stampe/id/9860/rec/4",
+    "label" : "Scheda dell'item contenuto sul sito della Biblioteca Casanatese di Roma.",
+    "format" : "HTML"
+  }
+}
