@@ -1,0 +1,17 @@
+{
+  "id" : "https://MariaFrancescaBocchi.github.io/apolloedafne/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in MariaFrancescaBocchi/ApolloeDafne project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://MariaFrancescaBocchi.github.io/apolloedafne/manifests/manifest1.json",
+    "label" : "Maestro del Dado (copia da), Apollo e Dafne"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://MariaFrancescaBocchi.github.io/apolloedafne/manifests/manifest1.json",
+    "label" : "Maestro del Dado (copia da), Apollo e Dafne"
+  } ]
+}
