@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://MariaFrancescaBocchi.github.io/apolloedafne/manifests/manifest1.json",
     "label" : "Maestro del Dado (copia da), Apollo e Dafne"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://MariaFrancescaBocchi.github.io/apolloedafne/manifests/manifest.json",
+    "label" : "Maestro del Dado (copia da), Apollo e Dafne"
   } ]
 }
