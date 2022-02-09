@@ -70,7 +70,13 @@
         "on" : "http://086dc652-8c37-4aeb-af86-a6aff852c6d3"
       } ],
       "related" : ""
-    } ]
+      "otherContent": [
+    {
+        "@id": "http://127.0.0.1:8887/c6989d87f6ab94c9d363b3a8af1a62e7.json",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+    }
+],
   } ],
   "structures" : [ ],
   "thumbnail" : {
